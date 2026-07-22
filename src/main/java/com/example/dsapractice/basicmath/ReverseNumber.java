@@ -6,6 +6,7 @@ public class ReverseNumber {
     }
 
     private static int reverseNumber(int num){
+        if(num > -10 && num < 10) return num;
         int result = 0;
         while(num != 0){
             int lastDigit = num % 10;

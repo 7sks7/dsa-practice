@@ -6,6 +6,12 @@ public class PallindromeNumber {
     }
 
     private static boolean isPallindrome(int number){
+        if (number < 0) {
+            return false;
+        }
+        if (number < 10) {
+            return true;
+        }
         int temp = number;
         int result = 0;
         while(temp != 0){
