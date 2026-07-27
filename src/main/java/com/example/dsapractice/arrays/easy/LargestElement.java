@@ -1,4 +1,4 @@
-package com.example.dsapractice.arrays;
+package com.example.dsapractice.arrays.easy;
 
 public class LargestElement {
     public static void main(String[] args) {
